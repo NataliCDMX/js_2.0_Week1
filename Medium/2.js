@@ -7,9 +7,14 @@
 */
 
 const randomArr = () => {
-    /* Тут код*/
+    const randomArray = [];
+  for (let i = 0; i < 10; i++) {
+    const randomNumber = Math.floor(Math.random() * 11);
+    randomArray.push(randomNumber); 
+  }
+  return randomArray;
 
 }
 
-
+console.log(randomArr());
 module.exports = randomArr

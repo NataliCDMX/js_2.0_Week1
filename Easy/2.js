@@ -4,9 +4,12 @@
 Пример: ({ 'key': 'property' }, 'key') => 'property'
 */
 
-const objValue = (obj, key) => {
-    /* Тут код*/
+const obj = {'James':'1000'};
+const key = 'James';
 
-}
+function getValue(obj, key) {
+    return obj[key];
+  }
 
+console.log(getValue(obj, key));
 module.exports = objValue

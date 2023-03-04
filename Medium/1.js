@@ -5,8 +5,10 @@
 */
 
 const logEachLetter = (str) => {
-    /* Тут код*/
+  for (let i = 0; i < str.length; i++) {
+    console.log(str[i]);
+  }
 
 }
-
+console.log (logEachLetter('Elbrus'));
 module.exports = logEachLetter
